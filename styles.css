@@ -1,3 +1,52 @@
-h3 {
-    color: red;
+:root {
+    box-sizing: border-box;
+}
+
+
+
+#container {
+    border: solid thin black;
+    width: 100%;
+    display: flex;
+    height: 650px;
+}
+
+.left-side {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    border-style: thin;
+    margin: 0px 0px;
+    padding: 0px 0px;
+   
+
+}
+
+.center-side {
+    width: 20%;
+    height: 100%;
+    background-color:aliceblue;
+    border-style: thin;
+    
+
+}
+
+.centerright-side {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-style: thin;
+    align-items: center;
+    
+}
+
+.right {
+    width: 20%;
+    height: 650px;
+    background-color: black;
+    border-style: thin;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    
+    
 }
