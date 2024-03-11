@@ -71,6 +71,37 @@
     
 }
 
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row label {
+    width: 45%;
+
+}
+
 .right {
     width: 20%;
     height: 650px;
@@ -81,3 +112,40 @@
     
     
 }
+/*
+label {
+    
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+*/
+
+/*
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
+
+.middle-left {
+    float: left;
+}
+
+.middle-right {
+    float: right;
+}
+
+.bottom-left {
+    float: left;
+}
+
+.bottom-right {
+    float: right;
+}
+*/
+
+
