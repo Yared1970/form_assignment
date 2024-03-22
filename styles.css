@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "norse";
+    src: url(Norse-Bold.otf);
+} 
+
 :root {
     box-sizing: border-box;
 }
@@ -28,8 +33,11 @@
     height: 100%;
 
     border-style: thin black;
-    
 }
+
+
+    
+
 
 .background-image {
     width: 100%;
@@ -54,7 +62,7 @@
     width: 200px;
     height: 100px;
     z-index: 1;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "norse";
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     font-size: 4em;
@@ -65,7 +73,7 @@
 .centerright-side {
     width: 40%;
     height: auto;
-    background-color: white;
+    background-color:white ;
     border-style: thin;
     align-items: center;
     margin-left: 15px;
@@ -86,6 +94,7 @@
 .form {
     margin-bottom: 20px;
     width: 50%;
+    background-color: #FFFFFF;
 }
 
 .form label {
@@ -99,7 +108,7 @@
 .form input[type="number"],
 .form input[type="password"] {
     width: 150px;
-    height: 7px;
+    height: 3px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
