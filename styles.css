@@ -68,6 +68,14 @@
     font-size: 4em;
 }
   
+#photo {
+    position: absolute;
+    top: 600px; 
+    left: 25px;
+    z-index: 1;
+    a:link {color: white;}
+}
+
 
 
 .centerright-side {
