@@ -136,3 +136,27 @@
     
     
 }
+
+button {
+    background-color: #596D48;
+    width: 150px;
+    height: 35px;
+    border-radius: 7%;
+    color: white;
+    
+}
+
+#button-text {
+    font-size: 0.75em;
+}
+
+#log {
+    color: green;
+}
+
+input:focus {
+    border-color: red;
+}
+
+
+

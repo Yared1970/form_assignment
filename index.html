@@ -34,12 +34,12 @@
             
                    
                     <div class="form">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <label for="first-name">*FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" required>
                     </div>
                     <div class="form">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <label for="last-name">*LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
 
                     </div>
@@ -62,18 +62,23 @@
                     <div class="rows">
                     <div class="form">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" pattern="/^(.*[a-z])(.*[A-Z])(.+\d)(.*[\W]).{8,}$/" required>
+                        <input type="password" id="password" name="password" pattern="^(.*[a-z])(.*[A-Z])(.+\d)(.*[\W]).{8,}$" required>
                     </div>
                     <div class="form">
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="password-conffirm" name="password-confirm" pattern="/^(.*[a-z])(.*[A-Z])(.+\d)(.*[\W]).{8,}$/" required>
+                        <input type="password" id="password-conffirm" name="password-confirm" pattern="^(.*[a-z])(.*[A-Z])(.+\d)(.*[\W]).{8,}$" required>
                     </div>
                     </div>
                   
                     
-                </form>
+               
             </div>
-            <div class="bottom-part"></div>
+            <div class="bottom-part">
+                <button type="button"><strong>Create Account</strong></button><br/>
+                <p id="button-text">Already have an account ? <span id="log">Log in</span></p>
+            </div>
+
+        </form>
         </div>
         <div class="right">Right side</div>
 
